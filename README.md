@@ -21,7 +21,8 @@ Esta distribución tiene 𝔼(*X*)=*n* ⋅ *p* y 𝕍𝕒𝕣(*X*)=*n* ⋅
 
 La distribución de Poisson es útil para estimar probabilidad de ocurrencia de una cierta cantidad de eventos que ocurren rara vez en un periodo corto de tiempo, por ejemplo, la probabilidad de anotar un gol en cada segundo de tiempo de un partido de futbol, o la probabilidad de que un computador falle en una unidad corta de tiempo. En realidad, en este caso no hay un límite superior, podría un equipo marcar 20 goles, de modo que la distribución binomial no se ajusta. En cada unidad mínima de tiempo existe una leve probabilidad de ocurrencia del evento, y podemos decir que hay infinitos eventos.
 
-La función de probabilidad de esta distribución está definida por
+La función de probabilidad de esta distribución está definida por:
 
-$$\\frac{\\lambda^{x}}{x!} \\exp(-\\lambda) $$
- Esta distribución solo tiene un parámetro (*λ*), y tiene la particularidad de que 𝔼(*X*)=𝕍𝕒𝕣(𝕏)=λ. El parámetro *λ* es la cantidad de eventos esperada. Por ejemplo, si yo se que en promedio hay dos goles por partido, podría estimar la probabilidad de que hayan 4 goles por partido, suponiendo de goles por partido *X* ∼ *P**o**i**s**s*(*λ*)
+$$(\\frac{\\lambda^{x}}{x!})exp(\\lambda)$$
+
+Esta distribución solo tiene un parámetro (*λ*), y tiene la particularidad de que 𝔼(*X*)=𝕍𝕒𝕣(𝕏)=λ. El parámetro *λ* es la cantidad de eventos esperada. Por ejemplo, si yo se que en promedio hay dos goles por partido, podría estimar la probabilidad de que hayan 4 goles por partido, suponiendo de goles por partido *X* ∼ *P**o**i**s**s*(*λ*)
